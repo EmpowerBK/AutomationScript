@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{7B1DFCF0-7056-43B7-9FE8-8443467FC42F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C0A81217-5E6E-4988-B29D-9C82A11AB76B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{3566B485-45F6-406C-874D-20F08FB737F0}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\AboutThisFolder.md = Dlls\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{0F12F757-ABC1-4D82-BA95-E3125A01817D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{3AF14D3E-986E-4937-A011-ACEE2C455CE0}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{72F5C0B3-12F9-4073-A3E1-8822F1C0E6FE}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\AboutThisFolder.md = Documentation\AboutThisFolder.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{1D9EC1A9-18A3-4462-95B4-B43A631CFAE4}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project_brykz", "project_brykz", "{13E2F3A1-A206-4AC5-B262-99BB12E5315C}"
+	ProjectSection(SolutionItems) = preProject
+		project_brykz.xml = project_brykz.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{31291B68-A966-4C7E-B2CE-24F8D3C0A8EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project_brykz_1", "project_brykz_1\project_brykz_1.csproj", "{F70D2BD9-8D0B-46C8-BBD7-DCF93D6CD9B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F70D2BD9-8D0B-46C8-BBD7-DCF93D6CD9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70D2BD9-8D0B-46C8-BBD7-DCF93D6CD9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70D2BD9-8D0B-46C8-BBD7-DCF93D6CD9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70D2BD9-8D0B-46C8-BBD7-DCF93D6CD9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3AF14D3E-986E-4937-A011-ACEE2C455CE0} = {0F12F757-ABC1-4D82-BA95-E3125A01817D}
+		{1D9EC1A9-18A3-4462-95B4-B43A631CFAE4} = {7B1DFCF0-7056-43B7-9FE8-8443467FC42F}
+		{13E2F3A1-A206-4AC5-B262-99BB12E5315C} = {C0A81217-5E6E-4988-B29D-9C82A11AB76B}
+		{31291B68-A966-4C7E-B2CE-24F8D3C0A8EC} = {13E2F3A1-A206-4AC5-B262-99BB12E5315C}
+		{F70D2BD9-8D0B-46C8-BBD7-DCF93D6CD9B4} = {31291B68-A966-4C7E-B2CE-24F8D3C0A8EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC1EBD29-52EE-45BC-A409-781ABD970F2B}
+	EndGlobalSection
+EndGlobal
